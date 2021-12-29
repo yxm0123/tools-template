@@ -1,0 +1,33 @@
+{
+  "name": "tools-template",
+  "version": "1.0.0",
+  "description": "tools template",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "server": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yxm0123/tools-template.git"
+  },
+  "author": "771685455@qq.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "babel-loader": "^8.2.3",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.4",
+    "webpack": "^5.59.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.3.1",
+    "webpack-merge": "^5.8.0"
+  },
+  "bugs": {
+    "url": "https://github.com/yxm0123/tools-template/issues"
+  },
+  "homepage": "https://github.com/yxm0123/tools-template#readme"
+}
