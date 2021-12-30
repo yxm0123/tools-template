@@ -29,14 +29,4 @@ module.exports = {
             }
         ]
     },
-    devServer:{
-        hot: true,
-        host: '0.0.0.0',
-        compress: true,
-        port: 9000,
-        static: {
-            directory: path.join(__dirname, 'dist'),
-        },
-        // contentBase: path.join(__dirname, "dist")
-    }
 }
